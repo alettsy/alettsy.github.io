@@ -3,6 +3,6 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: 'hexedbun.github.io/',
+	base: '/hexedbun.github.io/',
 	plugins: [svelte()],
 });
