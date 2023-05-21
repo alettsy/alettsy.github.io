@@ -1,0 +1,20 @@
+:root {
+	font-family: Poppins, sans-serif;
+	font-weight: 400;
+
+	color-scheme: dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+
+	--accent-color: #fac898;
+	--accent-color-darker: #f5a458;
+	--accent-color-filter: invert(80%) sepia(33%) saturate(468%)
+		hue-rotate(337deg) brightness(100%) contrast(97%);
+	--gray-color: #242424;
+}

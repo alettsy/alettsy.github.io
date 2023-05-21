@@ -1,0 +1,54 @@
+[
+	{
+		"name": "Work History",
+		"type": "work-history",
+		"data": {
+			"jobs": [
+				{
+					"company": "Edwards Vacuum",
+					"title": "Software Engineer",
+					"start": "Aug '21",
+					"end": "July '22",
+					"description": [
+						"This was my year in industry placement as part of my computer science course at UKC",
+						"I was employed as part of the UI design team for the Edwards S3 project, implementing the interface which displays information about different systems, such as vacuum pumps",
+						"I followed the agile scrum process and I was part of stand-ups every morning, as well as sprint reviews and retrospectives at the end of each sprint"
+					]
+				},
+				{
+					"company": "Edwards Vacuum",
+					"title": "Student Software Engineer",
+					"start": "June '20",
+					"end": "Sept '20",
+					"description": [
+						"This was a temporary summer placement in which I was tasked with developing a device to interface with the pump controllers",
+						"The main device was an ESP32 with an XLR connector which plugged directly into the pump controller",
+						"It used MQTT to publish the data so it could be aggregated and displayed clearly for the client",
+						"I designed a cross-platform application to display the data from the pumps, which also supported bluetooth connectivity"
+					]
+				},
+				{
+					"company": "Admiral Casino",
+					"title": "Floor Attendant",
+					"start": "May '19",
+					"end": "Sept '19",
+					"description": [
+						"I worked in the arcade called Flamingo which is owned by Admiral Casino",
+						"My job was to refill prizes in machines, empty collected coins out the bottom of the machines, exchange tickets for prizes, and assisting customers with any issues they had",
+						"On occasion, I also exchanged and counted money"
+					]
+				},
+				{
+					"company": "Battle VA",
+					"title": "Assistant Web Developer",
+					"start": "Mar '15",
+					"end": "Aug '18",
+					"description": [
+						"I worked on small websites for customers, kept them up to date with my progress, and regularly checked in to see if they wanted any changes",
+						"I also managed existing websites using the Joomla CMS"
+					]
+				}
+			]
+		}
+	}
+]
