@@ -34,12 +34,12 @@
         height: 101%;
         width: 100%;
         background-color: var(--gray-color);
-        transform: translate(-2%, 101%);
+        transform: translate(-2%, 103%);
         transition: transform 150ms ease;
     }
 
     .show-popup {
-        transform: translate(-2%, -2%);
+        transform: translate(-2%, -3%);
     }
 
     .close {
@@ -53,11 +53,11 @@
     @media only screen and (min-width: 480px) {
         .popup {
             width: 71vw;
-            transform: translate(19%, 101%);
+            transform: translate(19%, 103%);
         }
 
         .show-popup {
-            transform: translate(19%, -2%);
+            transform: translate(19%, -3%);
         }
     }
 
@@ -65,11 +65,11 @@
     @media only screen and (min-width: 1000px) {
         .popup {
             width: 51vw;
-            transform: translate(47%, 101%);
+            transform: translate(47%, 103%);
         }
 
         .show-popup {
-            transform: translate(47%, -2%);
+            transform: translate(47%, -3%);
         }
     }
 
@@ -77,11 +77,11 @@
     @media only screen and (min-width: 1200px) {
         .popup {
             width: 41vw;
-            transform: translate(71%, 101%);
+            transform: translate(71%, 103%);
         }
 
         .show-popup {
-            transform: translate(71%, -2%);
+            transform: translate(71%, -3%);
         }
     }
 </style>

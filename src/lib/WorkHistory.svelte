@@ -116,7 +116,7 @@
         }
 
         .job:last-child {
-            padding-bottom: 30px;
+            padding-bottom: 40px;
         }
     }
 
