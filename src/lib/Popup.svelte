@@ -4,7 +4,7 @@
 
     import { createEventDispatcher } from "svelte";
     import Control from "./Control.svelte";
-  import WorkHistory from "./WorkHistory.svelte";
+    import WorkHistory from "./WorkHistory.svelte";
 
     const dispatch = createEventDispatcher();
 
