@@ -31,15 +31,17 @@
 <style>
     .popup {
         position: fixed;
-        height: 101%;
+        height: 100%;
         width: 100%;
         background-color: var(--gray-color);
-        transform: translate(-2%, 103%);
-        transition: transform 150ms ease;
+        transform: translateX(-50%);
+        transition: top 150ms ease;
+        top: 100%;
+        left: 50%;
     }
 
     .show-popup {
-        transform: translate(-2%, -3%);
+        top: 0;
     }
 
     .close {
@@ -53,35 +55,20 @@
     @media only screen and (min-width: 480px) {
         .popup {
             width: 71vw;
-            transform: translate(19%, 103%);
-        }
-
-        .show-popup {
-            transform: translate(19%, -3%);
         }
     }
 
     /* DESKTOP */
     @media only screen and (min-width: 1000px) {
         .popup {
-            width: 51vw;
-            transform: translate(47%, 103%);
-        }
-
-        .show-popup {
-            transform: translate(47%, -3%);
+            width: 61vw;
         }
     }
 
     /* LARGE DESKTOP */
     @media only screen and (min-width: 1200px) {
         .popup {
-            width: 41vw;
-            transform: translate(71%, 103%);
-        }
-
-        .show-popup {
-            transform: translate(71%, -3%);
+            width: 51vw;
         }
     }
 </style>

@@ -31,7 +31,7 @@
   .about-me {
     max-width: 100%;
     position: absolute;
-    transform: translate(0, -50%);
+    transform: translate(0, -40%);
     top: 40%;
     padding: 0 2vw;
   }

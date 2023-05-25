@@ -18,3 +18,13 @@
 		hue-rotate(337deg) brightness(100%) contrast(97%);
 	--gray-color: #242424;
 }
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+}
