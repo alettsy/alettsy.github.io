@@ -41,7 +41,7 @@
     .job::before {
         content: "";
         position: absolute;
-        width: 50%;
+        width: 50.5%;
         border: solid var(--accent-color-darker);
     }
 
@@ -56,7 +56,7 @@
     .job:nth-child(even)::before {
         border-width: 5px 5px 5px 0;
         border-radius: 0 40px 40px 0;
-        top: 5px;
+        top: 5.5px;
         right: -5px;
         bottom: -5px;
     }
