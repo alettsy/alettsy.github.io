@@ -56,7 +56,7 @@
     .job:nth-child(even)::before {
         border-width: 5px 5px 5px 0;
         border-radius: 0 40px 40px 0;
-        top: 5.5px;
+        top: 5px;
         right: -5px;
         bottom: -5px;
     }
@@ -107,6 +107,10 @@
     @media only screen and (min-width: 480px) {
         .jobs {
             width: 90%;
+        }
+
+        .job:nth-child(even)::before {
+            top: 5.5px;
         }
     }
 
