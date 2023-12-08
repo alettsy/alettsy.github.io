@@ -17,7 +17,7 @@
     <h3 class="my-name-is">👋 Hi, my name is</h3>
     <h1 class="name">Alex Betts</h1>
     <p class="intro">
-      I'm a software developer and tinkerer from the UK, currently studying computer science with AI at the University of Kent. When I'm not writing code, I like to dabble in the art of origami and do some reading.
+      I'm a software developer and tinkerer from the UK, currently working as Graduate Software Developer for Edwards Vacuum. When I'm not writing code, I like to dabble in the art of origami and do some painting. I graduated from the University of Kent with a first class honours in computer science with AI.
     </p>
     <div class="options">
       <ControlsBar on:toggle-popup={togglePopup} />

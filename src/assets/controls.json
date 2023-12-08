@@ -6,6 +6,16 @@
 			"jobs": [
 				{
 					"company": "Edwards Vacuum",
+					"title": "Graduate Software Engineer",
+					"start": "Aug '23",
+					"end": "Present",
+					"description": [
+						"This is my current job",
+						"I am working as part of the applications team to develop the future control platform for the vacuum pumps"
+					]
+				},
+				{
+					"company": "Edwards Vacuum",
 					"title": "Student Software Engineer",
 					"start": "Aug '21",
 					"end": "Aug '22",
