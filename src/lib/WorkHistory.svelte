@@ -79,6 +79,10 @@
         border-bottom-right-radius: 0;
     }
 
+    .job:first-child {
+        padding-top: 50px;
+    }
+
     .job:last-child {
         padding-bottom: 100px;
     }

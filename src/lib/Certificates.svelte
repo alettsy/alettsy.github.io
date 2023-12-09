@@ -33,6 +33,10 @@
         height: 250px;
     }
 
+    p {
+        padding-top: 55px;
+    }
+
     .certificates {
         overflow-y: scroll;
         text-align: center;
