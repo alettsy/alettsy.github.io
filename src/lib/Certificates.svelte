@@ -43,8 +43,9 @@
         height: 100vh;
     }
 
-    .certificates .certificate:last-child {
+    .certificate:last-child {
         border-bottom: none;
+        padding-bottom: 100px;
     }
 
     .certificate {
@@ -73,6 +74,12 @@
     .dot {
         color: var(--accent-color);
         padding: 0 3px 0 3px;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        .certificate:last-child {
+            padding-bottom: 40px;
+        }
     }
 
     /* TABLET */
