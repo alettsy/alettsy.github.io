@@ -10,7 +10,7 @@
                 <p class="details">{job.company} • {job.start} - {job.end}</p>
                 <ul class="description">
                     {#each job.description as description}
-                    <li>{description}</li>
+                        <li>{description}</li>
                     {/each}
                 </ul>
             </div>
@@ -36,6 +36,12 @@
     .job {
         padding: 20px;
         position: relative;
+        text-align: left;
+    }
+
+    .job:nth-child(even) .title,
+    .job:nth-child(even) .details {
+        text-align: right;
     }
 
     .job::before {
@@ -52,7 +58,7 @@
         left: -5px;
         bottom: -10px;
     }
-    
+
     .job:nth-child(even)::before {
         border-width: 5px 5px 5px 0;
         border-radius: 0 40px 40px 0;
@@ -64,10 +70,12 @@
     .job:first-child::before {
         border-top: 0;
         border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
     }
 
     .job:last-child::before {
         border-bottom: 0;
+        border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
 
