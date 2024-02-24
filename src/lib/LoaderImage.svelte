@@ -16,27 +16,8 @@
 			}
 		});
 
-		const reader = response.body.getReader();
-
-		const stream = new ReadableStream({
-			start(controller) {
-				return pump();
-
-				function pump() {
-					return reader.read().then(({done, value}) => {
-						if (done) {
-							controller.close();
-							return;
-						}
-
-						controller.enqueue(value);
-						return pump();
-					});
-				}
-			},
-		});
-		const blob = await new Response(stream).blob();
-		return URL.createObjectURL(blob);
+		const test = await new Response(response.body).blob();
+		return URL.createObjectURL(test);
 	}
 </script>
 
