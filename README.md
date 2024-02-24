@@ -1,4 +1,6 @@
-## My New Portfolio Website :)
+## New Portfolio Website
+
+The site can be viewed here: [alettsy.github.io](https://alettsy.github.io/)
 
 ### For updating:
 
