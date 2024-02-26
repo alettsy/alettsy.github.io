@@ -71,14 +71,14 @@
 					"company": "Microsoft & LinkedIn",
 					"type": "Professional Certificate",
 					"date": "07 Dec '23",
-					"image": "cyber_essentials.jpg"
+					"image": "certificates/cyber_essentials.jpg"
 				},
 				{
 					"name": "Figma Essential Training",
 					"company": "LinkedIn Learning",
 					"type": "Course Certificate",
 					"date": "30 Nov '23",
-					"image": "figma_essentials.jpg"
+					"image": "certificates/figma_essentials.jpg"
 				}
 			]
 		}

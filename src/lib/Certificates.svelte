@@ -10,7 +10,7 @@
 	{#each certificates as certificate}
 		<div class="certificate">
 			<div class="image">
-				<LoaderImage src={'/certificates/' + certificate.image} alt={certificate.name} height={250}
+				<LoaderImage src={certificate.image} alt={certificate.name} height={250}
 							 width={350}/>
 			</div>
 			<div class="details">
