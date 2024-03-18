@@ -61,6 +61,7 @@
 	/* TABLET */
 	@media only screen and (min-width: 480px) {
 		.popup {
+			min-width: 425px;
 			width: 71vw;
 		}
 	}

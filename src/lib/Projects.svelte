@@ -37,7 +37,7 @@
 	}
 
 	.project {
-		width: 75%;
+		width: 90%;
 		border: var(--accent-color-darker) 2px solid;
 		border-radius: 10px;
 		margin-bottom: 25px;
@@ -59,5 +59,17 @@
 
 	.controls {
 		padding-right: 10px;
+	}
+
+	@media only screen and (min-width: 480px) {
+		.project {
+			width: 95%;
+		}
+	}
+
+	@media only screen and (min-width: 1000px) {
+		.project {
+			width: 80%;
+		}
 	}
 </style>
