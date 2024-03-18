@@ -1,6 +1,5 @@
 <script>
 	import LoaderImage from "./LoaderImage.svelte";
-
 	export let certificates;
 </script>
 
