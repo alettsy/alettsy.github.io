@@ -8,5 +8,10 @@
 		"name": "LinkedIn",
 		"icon": "/linkedin.svg",
 		"url": "https://www.linkedin.com/in/alex-betts/"
+	},
+	{
+		"name": "CV",
+		"icon": "/cv.svg",
+		"file": "alex_betts_cv.pdf"
 	}
 ]

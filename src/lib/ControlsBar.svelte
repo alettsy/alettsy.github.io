@@ -17,3 +17,10 @@
 		<Control text={control.name} onclick={() => togglePopup(control)}/>
 	{/each}
 </div>
+
+<style>
+	.controls {
+		display: flex;
+		justify-content: center;
+	}
+</style>

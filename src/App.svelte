@@ -26,7 +26,7 @@
 			<SocialBar/>
 		</div>
 	</div>
-	<Popup on:toggle-popup={togglePopup} show={showPopup} data={popupData}/>
+	<Popup data={popupData} on:toggle-popup={togglePopup} show={showPopup}/>
 </main>
 
 <style>
@@ -35,7 +35,7 @@
 		position: absolute;
 		transform: translate(0, -40%);
 		top: 40%;
-		padding: 0 2vw;
+		padding: 0 0.1rem;
 	}
 
 	.name {
@@ -70,6 +70,7 @@
 		.about-me {
 			max-width: 70vw;
 			width: 70vw;
+			min-width: 425px;
 			position: absolute;
 			transform: translate(-50%, -50%);
 			top: 45%;
@@ -84,21 +85,22 @@
 	/* DESKTOP */
 	@media only screen and (min-width: 1000px) {
 		.about-me {
-			max-width: 50vw;
-			width: 50vw;
+			max-width: 60vw;
+			width: 60vw;
 		}
 
 		.options {
 			flex-direction: row;
 			justify-content: space-between;
 			margin-right: 10px;
-			gap: 0px;
+			gap: 0;
 		}
 	}
 
 	/* LARGE DESKTOP */
 	@media only screen and (min-width: 1200px) {
 		.about-me {
+			min-width: 600px;
 			max-width: 40vw;
 			width: 40vw;
 		}

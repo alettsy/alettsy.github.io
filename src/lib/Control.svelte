@@ -1,7 +1,7 @@
 <script>
 	export let text;
 	export let onclick;
-	export let stretch;
+	export let stretch = false;
 </script>
 
 <button class="control" class:stretch on:click={onclick}>
