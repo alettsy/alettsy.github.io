@@ -7,6 +7,7 @@
 	import {createEventDispatcher} from "svelte";
 	import Control from "./Control.svelte";
 	import WorkHistory from "./WorkHistory.svelte";
+	import Projects from "./Projects.svelte";
 
 	const dispatch = createEventDispatcher();
 
@@ -19,13 +20,15 @@
 
 <div class="popup" class:show-popup={show}>
 	<div class="close">
-		<Control text="Close" onclick={toggle}/>
+		<Control onclick={toggle} text="Close"/>
 	</div>
 	<div class="content">
-		{#if data.type == "work-history"}
+		{#if data.type === "work-history"}
 			<WorkHistory jobs={data.data.jobs}/>
 		{:else if data.type === 'certificates'}
 			<Certificates certificates={data.data.certificates}/>
+		{:else if data.type === "projects"}
+			<Projects projects={data.data.projects} />
 		{:else}
 			<p>Unable to show popup</p>
 		{/if}

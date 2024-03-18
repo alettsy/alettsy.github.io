@@ -82,5 +82,63 @@
 				}
 			]
 		}
+	},
+	{
+		"name": "Projects",
+		"type": "projects",
+		"data": {
+			"projects": [
+				{
+					"name": "MyMemory Translate Package",
+					"description": "A Dart package to communicate with the MyMemory translate API.",
+					"repo": "https://github.com/alettsy/mymemory_translate"
+				},
+				{
+					"name": "Food Manager",
+					"description": "A food/inventory management system I built for my parents.",
+					"repo": "https://github.com/alettsy/food-manager"
+				},
+				{
+					"name": "Rust Ray Tracer",
+					"description": "A ray tracer built following the Ray Tracing in One Weekend book.",
+					"repo": "https://github.com/alettsy/rust-ray-trace"
+				},
+				{
+					"name": "Excel Cells to Image",
+					"description": "A simple script to convert Excel cells to an image.",
+					"repo": "https://github.com/alettsy/excel-cells-to-image"
+				},
+				{
+					"name": "Image to Excel Cells",
+					"description": "A simple script to convert any image into an Excel spreadsheet.",
+					"repo": "https://github.com/alettsy/image-to-excel-cells"
+				},
+				{
+					"name": "Simple Slideshow",
+					"description": "A simple slideshow app to replace the removed slideshow feature in Windows 11.",
+					"repo": "https://github.com/alettsy/simple-slideshow"
+				},
+				{
+					"name": "Simple Weather",
+					"description": "A simple weather app that displays the weather over the next week at your location.",
+					"repo": "https://github.com/alettsy/simple-weather"
+				},
+				{
+					"name": "Flutter UI Challenges",
+					"description": "Recreating UI designs from Dribbble.",
+					"repo": "https://github.com/alettsy/flutter-ui-challenges"
+				},
+				{
+					"name": "Aromatherapy App",
+					"description": "An app about essential oils and their uses in aromatherapy.",
+					"repo": "https://github.com/alettsy/aromatherapy-app-v1"
+				},
+				{
+					"name": "Aesthetic Clock",
+					"description": "A simple, aesthetic clock.",
+					"repo": "https://github.com/alettsy/simple-clock"
+				}
+			]
+		}
 	}
 ]
