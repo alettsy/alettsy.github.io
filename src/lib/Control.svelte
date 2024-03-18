@@ -1,15 +1,20 @@
 <script>
 	export let text;
 	export let onclick;
+	export let stretch;
 </script>
 
-<button class="control" on:click={onclick}>
+<button class="control" class:stretch on:click={onclick}>
     <span class="text">
         {text}
     </span>
 </button>
 
 <style>
+	.stretch {
+		width: 100%;
+	}
+
 	.control {
 		background-color: var(--accent-color-darker);
 		border-radius: 8px;
