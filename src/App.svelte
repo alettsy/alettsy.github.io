@@ -35,7 +35,7 @@
 		position: absolute;
 		transform: translate(0, -40%);
 		top: 40%;
-		padding: 0 0.1rem;
+		padding: 0 0.5rem;
 	}
 
 	.name {
@@ -54,7 +54,7 @@
 	.intro {
 		font-size: 1.3rem;
 		margin: 0;
-		padding: 2.5vh 0;
+		padding: 2.5vh 0.5rem;
 		text-align: center;
 	}
 

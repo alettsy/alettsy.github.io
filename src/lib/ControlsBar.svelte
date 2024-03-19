@@ -19,8 +19,10 @@
 </div>
 
 <style>
-	.controls {
-		display: flex;
-		justify-content: center;
+	@media only screen and (min-width: 480px) {
+		.controls {
+			display: flex;
+			justify-content: center;
+		}
 	}
 </style>
