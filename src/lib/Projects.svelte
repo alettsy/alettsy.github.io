@@ -43,6 +43,10 @@
 		margin-bottom: 25px;
 	}
 
+	.project:last-child {
+		margin-bottom: 100px;
+	}
+
 	.name {
 		color: var(--accent-color);
 		font-size: 18pt;
@@ -70,6 +74,10 @@
 	@media only screen and (min-width: 1000px) {
 		.project {
 			width: 80%;
+		}
+
+		.project:last-child {
+			margin-bottom: 40px;
 		}
 	}
 </style>
