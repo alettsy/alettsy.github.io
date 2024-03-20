@@ -50,11 +50,13 @@
 	.name {
 		color: var(--accent-color);
 		font-size: 18pt;
+		height: 4rem;
+		margin-bottom: 0;
 	}
 
 	.description {
+		height: 4.5rem;
 		padding-bottom: 10px;
-		height: 3em;
 	}
 
 	.name, .description {
