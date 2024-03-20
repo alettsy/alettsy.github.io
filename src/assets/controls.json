@@ -89,6 +89,11 @@
 		"data": {
 			"projects": [
 				{
+					"name": "Video to Frame Average Color Image",
+					"description": "Using Flutter and Rust to convert a video to an image made up of columns of the average color of each interval frame. ",
+					"repo": "https://github.com/alettsy/video-to-frame-average-color-image"
+				},
+				{
 					"name": "MyMemory Translate Package",
 					"description": "A Dart package to communicate with the MyMemory translate API.",
 					"repo": "https://github.com/alettsy/mymemory_translate"
