@@ -27,3 +27,19 @@ body {
 body {
 	margin: 0;
 }
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-button {
+	background: var(--accent-color-darker);
+}
+
+::-webkit-scrollbar-track-piece {
+	background: var(--accent-color-darker);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--accent-color);
+}

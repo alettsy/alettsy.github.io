@@ -67,6 +67,13 @@
 		"data": {
 			"certificates": [
 				{
+					"name": "Foundational C# with Microsoft",
+					"company": "freeCodeCamp & Microsoft",
+					"type": "Professional Certificate",
+					"date": "01 Jul '24",
+					"image": "certificates/foundational_csharp.png"
+				},
+				{
 					"name": "Career Essentials in Cybersecurity",
 					"company": "Microsoft & LinkedIn",
 					"type": "Professional Certificate",
