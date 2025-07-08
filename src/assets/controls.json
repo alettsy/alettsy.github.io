@@ -6,11 +6,21 @@
 			"jobs": [
 				{
 					"company": "Edwards Vacuum",
-					"title": "Graduate Software Engineer",
-					"start": "Aug '23",
+					"title": "Software Engineer",
+					"start": "Feb '25",
 					"end": "Present",
 					"description": [
 						"This is my current job",
+						"I am developing the next-gen cross-platform control system app in Flutter/Dart",
+						"The entire project core and initial UI was developed solely by me"
+					]
+				},
+				{
+					"company": "Edwards Vacuum",
+					"title": "Graduate Software Engineer",
+					"start": "Aug '23",
+					"end": "Feb '25",
+					"description": [
 						"I am working as part of the applications team to develop the future control platform for the vacuum pumps"
 					]
 				},
