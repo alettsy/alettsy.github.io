@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--color-primary-500: #252422;
+	--color-secondary-500: #eb5e28;
+	--color-text-500: #dad7cd;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--color-primary-500);
+	font-family: Roboto, sans-serif;
+}
+
+.mono-font {
+	font-family: 'JetBrains Mono';
+}
