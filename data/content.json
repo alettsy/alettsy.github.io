@@ -1,0 +1,285 @@
+{
+  "about": [
+		{
+			"type": "plain",
+			"content": "I'm a"
+		},
+		{
+			"type": "highlight",
+			"content": "software developer"
+		},
+		{
+			"type": "plain",
+			"content": "and"
+		},
+		{
+			"type": "highlight",
+			"content": "tinkerer"
+		},
+		{
+			"type": "plain",
+			"content": "from the UK, currently living in"
+		},
+		{
+			"type": "french",
+			"content": "France."
+		},
+		{
+			"type": "plain",
+			"content":
+				"When I'm not writing code, I like to dabble in the art of origami, and do some painting. I graduated from the University of Kent with a"
+		},
+		{
+			"type": "highlight",
+			"content": "first class honours"
+		},
+		{
+			"type": "plain",
+			"content": "in computer science with AI. I am currently working as a"
+		},
+		{
+			"type": "highlight",
+			"content": "software engineer"
+		},
+		{
+			"type": "plain",
+			"content": "for Edwards Vacuum Ltd."
+		}
+  ],
+  "certs": [
+  		{
+			"title": "IBM Ethical Hacking (Professional Certificate)",
+			"image": "ethical_hacking"
+		},
+  		{
+			"title": "Google Cybersecurity (Professional Certificate)",
+			"image": "google_cybersec_pro"
+		},
+		{
+	"title": "ISC2 Secure Software Lifecycle",
+	"image": "secure_software_lifecycle"
+},
+		{
+			"title": "CyberSecurity Essentials by Microsoft",
+			"image": "cybersec_career_microsoft"
+		},
+		{
+			"title": "Figma Essential Training",
+			"image": "figma_essentials"
+		}
+  ],
+  "projects": [
+    {
+			"title": "This website!",
+			"description":
+				"v3 of my portfolio website, written in Svelte",
+			"link": "https://github.com/alettsy/alettsy.github.io",
+			"tags": [
+				{
+					"name": "svelte",
+					"color": "bg-orange-400"
+				},
+				{
+					"name": "typescript",
+					"color": "bg-blue-400"
+				},
+				{
+					"name": "tailwindcss",
+					"color": "bg-blue-300"
+				}
+			]
+		},
+    {
+			"title": "Food Manager System",
+			"description":
+				"A simple food management system designed to help my parents mangage what they have and where",
+			"link": "https://github.com/alettsy/food-manager",
+			"tags": [
+				{
+					"name": "svelte",
+					"color": "bg-orange-400"
+				},
+				{
+					"name": "typescript",
+					"color": "bg-blue-400"
+				},
+				{
+					"name": "tailwindcss",
+					"color": "bg-blue-300"
+				}
+			]
+		},
+		{
+			"title": "Video Frames to Image",
+			"description":
+				"Using Flutter and Rust to convert a video to an image made up of columns of the average color of each interval frame",
+			"link": "https://github.com/alettsy/video-to-frame-average-color-image",
+			"tags": [
+				{
+					"name": "flutter",
+					"color": "bg-blue-400"
+				},
+				{
+					"name": "rust",
+					"color": "bg-orange-400"
+				}
+			]
+		},
+		{
+			"title": "MyMemory Translate Package",
+			"description": "A simple API to get and manage translations from MyMemory",
+			"link": "https://github.com/alettsy/mymemory_translate",
+			"tags": [
+				{
+					"name": "dart",
+					"color": "bg-blue-400"
+				}
+			]
+		},
+		{
+			"title": "Rust Ray Tracing",
+			"description": "My attempt at ray tracing in Rust in one weekend",
+			"link": "https://github.com/alettsy/rust-ray-trace",
+			"tags": [
+				{
+					"name": "rust",
+					"color": "bg-orange-400"
+				}
+			]
+		},
+		{
+			"title": "Slideshow App",
+			"description": "A simple desktop slideshow app written in Flutter",
+			"link": "https://github.com/alettsy/simple-slideshow",
+			"tags": [
+				{
+					"name": "flutter",
+					"color": "bg-blue-400"
+				}
+			]
+		},
+		{
+			"title": "Image to Excel Cells",
+			"description": "Converting an image to Excel cells",
+			"link": "https://github.com/alettsy/image-to-excel-cells",
+			"tags": [
+				{
+					"name": "python",
+					"color": "bg-yellow-400"
+				}
+			]
+		},
+		{
+			"title": "Aromatherapy App v1",
+			"description": "An app about essential oils and their uses in aromatherapy",
+			"link": "https://github.com/alettsy/aromatherapy-app-v1",
+			"tags": [
+				{
+					"name": "flutter",
+					"color": "bg-blue-400"
+				}
+			]
+		},
+		{
+			"title": "Simple Weather",
+			"description": "A basic weather app developed in Flutter, using the OpenWeatherMap REST API",
+			"link": "https://github.com/alettsy/simple-weather",
+			"tags": [
+				{
+					"name": "flutter",
+					"color": "bg-blue-400"
+				}
+			]
+		}
+  ],
+  "tech": {
+    "primary": [
+      "dart", "flutter", "rust", "go", "typescript", "python"
+    ],
+    "other": [
+    		"c",
+		 "kotlin",
+		"github",
+		"docker",
+		"figma",
+		"godot",
+		"raspberrypi",
+		"arduino",
+		"blender",
+		"less",
+		"mysql",
+		"sqlite",
+		"tailwind",
+		"svelte"
+    ]
+  },
+  "work": [
+    {
+			"title": "Software Engineer",
+			"company": "Edwards SAS",
+			"country": "France",
+			"when": "Feb 2025 - Present",
+			"points": [
+				"I am developing the next-gen cross-platform control system app in Flutter/Dart",
+				"The entire project core and initial UI was developed solely by me",
+				"I also create tools and other helpful software for the team",
+				"I internally manage the Flutter app development tasks using Lean Kanban",
+				"I have also taken the lead on ensuring the security of the application, supplementing this with professional courses"
+			]
+		},
+		{
+			"title": "Graduate Software Engineer",
+			"company": "Edwards Vacuum Ltd.",
+			"country": "UK",
+			"when": "Aug 2023 - Feb 2025",
+			"points": [
+				"I worked as part of the applications team to develop the future control platform for the vacuum pumps in JavaScript",
+				"I also developed a UI diagram designer tool to help speed up development"
+			]
+		},
+		{
+			"title": "Student Software Engineer",
+			"company": "Edwards Vacuum Ltd.",
+			"country": "UK",
+			"when": "Aug 2021 - Aug 2022",
+			"points": [
+				"This was my year in industry placement as part of my computer science course at UKC",
+				"I was employed as part of the UI design team for the Edwards S3 project, implementing the interface which displays information about different systems, such as vacuum pumps",
+				"I followed the agile scrum process and I was part of stand-ups every morning, as well as sprint reviews and retrospectives at the end of each sprint"
+			]
+		},
+		{
+			"title": "Student Software Engineer",
+			"company": "Edwards Vacuum Ltd.",
+			"country": "UK",
+			"when": "Jun 2020 - Sep 2020",
+			"points": [
+				"This was a temporary summer placement in which I was tasked with developing a device to interface with the pump controllers",
+				"The main device was an ESP32 with an XLR connector which plugged directly into the pump controller",
+				"It used MQTT to publish the data so it could be aggregated and displayed clearly for the client",
+				"I designed a cross-platform application to display the data from the pumps, which also supported bluetooth connectivity"
+			]
+		},
+		{
+			"title": "Floor Attendant",
+			"company": "Flamingo Amusements",
+			"country": "UK",
+			"when": "May 2019 - Sep 2019",
+			"points": [
+				"I worked in the arcade called Flamingo which is owned by Admiral Casino",
+				"My job was to refill prizes in machines, empty collected coins out the bottom of the machines, exchange tickets for prizes, and assisting customers with any issues they had",
+				"On occasion, I also exchanged and counted money"
+			]
+		},
+		{
+			"title": "Assistant Web Developer",
+			"company": "Battle VA",
+			"country": "UK",
+			"when": "Mar 2015 - Aug 2018",
+			"points": [
+				"I worked on small websites for customers, kept them up to date with my progress, and regularly checked in to see if they wanted any changes",
+				"I also managed existing websites using the Joomla CMS"
+			]
+		}
+  ]
+}
