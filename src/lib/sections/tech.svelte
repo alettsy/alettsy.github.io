@@ -13,9 +13,11 @@
 	let title: HTMLDivElement;
 	let primaryTitle: HTMLDivElement;
 	let secondaryTitle: HTMLDivElement;
+	let toolTitle: HTMLDivElement;
 
 	let primaryIcons: HTMLDivElement[] = [];
 	let secondaryIcons: HTMLDivElement[] = [];
+	let toolIcons: HTMLDivElement[] = [];
 
 	onMount(() => {
 		const ctx = gsap.context(() => {
@@ -63,6 +65,20 @@
 					ease: 'back.out(2)',
 					stagger: 0.2,
 					duration: 1
+				})
+				.from(toolTitle, {
+					opacity: 0,
+					y: -20,
+					duration: 0.2,
+					ease: 'power2.in'
+				})
+				.from(toolIcons, {
+					opacity: 0,
+					scale: 0.2,
+					y: 40,
+					ease: 'back.out(2)',
+					stagger: 0.2,
+					duration: 1
 				});
 		}, container);
 
@@ -98,6 +114,20 @@
 			<div class="flex flex-wrap items-center justify-center gap-6">
 				{#each data.other as skill, i}
 					<div class="flex w-18 items-center justify-center" bind:this={secondaryIcons[i]}>
+						<img
+							src="https://skillicons.dev/icons?i={skill}"
+							alt={skill}
+							class="w-16 transition-transform duration-200 hover:scale-125 md:w-20"
+						/>
+					</div>
+				{/each}
+			</div>
+			<div bind:this={toolTitle} class="space-x-2 text-center">
+				<TextHighlight text="Tools" size="text-4xl sm:text-5xl" />
+			</div>
+			<div class="flex flex-wrap items-center justify-center gap-6">
+				{#each data.tools as skill, i}
+					<div class="flex w-18 items-center justify-center" bind:this={toolIcons[i]}>
 						<img
 							src="https://skillicons.dev/icons?i={skill}"
 							alt={skill}

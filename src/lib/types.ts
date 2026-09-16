@@ -33,4 +33,5 @@ export type WorkItem = {
 export type Tech = {
 	primary: TechItem[];
 	other: TechItem[];
+	tools: TechItem[];
 };
