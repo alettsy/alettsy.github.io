@@ -194,23 +194,27 @@
   ],
   "tech": {
     "primary": [
-      "dart", "flutter", "rust", "go", "typescript", "python"
+      "flutter", "dart", "rust", "go", "typescript", "svelte", "python"
     ],
     "other": [
-    		"c",
-		 "kotlin",
-		"github",
-		"docker",
-		"figma",
-		"godot",
-		"raspberrypi",
-		"arduino",
-		"blender",
-		"less",
-		"mysql",
-		"sqlite",
-		"tailwind",
-		"svelte"
+      "c",
+  		"kotlin",
+  		"docker",
+  		"godot",
+  		"arduino",
+  		"less",
+  		"mysql",
+  		"sqlite",
+  		"tailwind",
+  		"raspberrypi",
+  		"react"
+    ],
+    "tools": [
+      "idea",
+      "github",
+      "blender",
+      "figma",
+      "arch"
     ]
   },
   "work": [
