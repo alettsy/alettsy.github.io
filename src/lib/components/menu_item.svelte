@@ -1,5 +1,16 @@
 <script lang="ts">
-    let { title, url, isActive = false } = $props();
+	import gsap from 'gsap';
+	import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
+
+	gsap.registerPlugin(ScrollToPlugin);
+
+	let { title, url } = $props();
+
+	function _onTap() {
+		gsap.to(window, { scrollTo: url });
+	}
 </script>
 
-<a href={url} class={`hover:brightness-80 cursor-pointer font-bold ${isActive ? 'text-secondary-500' : 'text-text-500'}`}>{title}</a>
+<button onclick={_onTap} class="cursor-pointer font-bold text-text-500 hover:brightness-80">
+	{title}
+</button>
