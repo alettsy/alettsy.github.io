@@ -70,6 +70,18 @@
   ],
   "projects": [
     {
+			"title": "Schematic Diagrams (package)",
+			"description":
+				"Flutter package for making modular, reactive, interactive schematic diagrams easily",
+			"link": "https://github.com/alettsy/schematic_diagrams",
+			"tags": [
+  			{
+  				"name": "flutter",
+  				"color": "bg-blue-400"
+  			}
+			]
+		},
+    {
 			"title": "This website!",
 			"description":
 				"v3 of my portfolio website, written in Svelte",
