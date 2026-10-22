@@ -70,6 +70,18 @@
   ],
   "projects": [
     {
+			"title": "lovecov",
+			"description":
+				"Simple, cross-platform lcov parser for generating various output formats",
+			"link": "https://github.com/alettsy/lovecov",
+			"tags": [
+  			{
+  				"name": "rust",
+  				"color": "bg-orange-400"
+  			}
+			]
+		},
+    {
 			"title": "Schematic Diagrams (package)",
 			"description":
 				"Flutter package for making modular, reactive, interactive schematic diagrams easily",
